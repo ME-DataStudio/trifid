@@ -30,7 +30,7 @@ const config = {
 
 if (program.port) {
   config.listener = {
-    port: program.port
+    port: process.env.PORT //program.port
   }
 }
 
